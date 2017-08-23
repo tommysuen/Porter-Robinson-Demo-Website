@@ -1,0 +1,163 @@
+body{
+	background-color: #5c716b;
+	font:15px/1.5 Helvetica, Helvetica, sans-serif;
+	color: #f9ffff;
+}
+
+#Branding{
+	padding-top: 30px;
+	float:left;
+}
+
+a{
+	color:#ffffff;
+	font-size:.85em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+
+.container{
+	width:90%;
+	margin:auto;
+	overflow:hidden
+}
+
+
+header nav{
+	float:right;
+	margin-top: 18px;
+}
+
+header li{
+	float:left;
+	display: inline;
+	padding-left: 25px;
+}
+
+#showcase {
+	text-align: center;
+	margin-top: 50px;
+	width:100%;
+}
+
+#showcase h1{
+	font-size: 150px;
+	text-decoration: none;
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+#Privacy{
+	float:left;
+	padding-top: 15px;
+}
+footer li{
+	float:left;
+	padding-left: 20px;
+}
+
+footer nav{
+	text-align: center;
+}
+
+footer ul{
+	display:inline-block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#Facebook{
+	background: url('../Images/Facebook.png') center no-repeat;
+	display: inline-block;
+	background-size:95%;
+	height: 33px;
+	width: 33px;
+	text-indent:-9999px;
+}
+#Twitter{
+	background: url('../Images/Twitter.jpg') center no-repeat;
+	display: inline-block;
+	background-size:95%;
+	height: 33px;
+	width: 33px;
+	text-indent:-9999px;
+}
+#SoundCloud{
+	background: url('../Images/SoundCloud.jpg') center no-repeat;
+	display: inline-block;
+	background-size:95%;
+	height: 33px;
+	width: 33px;
+	text-indent:-9999px;
+}
+#Instagram{
+	background: url('../Images/Instagram.jpg') center no-repeat;
+	display: inline-block;
+	background-size:95%;
+	height: 33px;
+	width: 33px;
+	text-indent:-9999px;
+}
+#Apple{
+	background: url('../Images/Apple.png') center no-repeat;
+	display: inline-block;
+	background-size:95%;
+	height: 33px;
+	width: 33px;
+	text-indent:-9999px;
+}
+
+#Spotify{
+	background: url('../Images/Spotify.png') center no-repeat;
+	display: inline-block;
+	background-size:95%;
+	height: 33px;
+	width: 33px;
+	text-indent:-9999px;
+}
+
+#Mail{
+	background: url('../Images/Mail.png') center no-repeat;
+	background-size:95%;
+	height: 33px;
+	width: 33px;
+	text-indent:-9999px;
+	float:right;
+	padding-top: 15px;
+}
+
+@media(max-width: 48em){
+	#Privacy{
+		padding-bottom: 20px;
+		width: 100%;
+		text-align: center;
+	}
+
+	#showcase h1{
+		font-size: 100px;
+	}
+	#Mail{
+		
+		opacity: 0;
+		
+		
+		}
+
+	#Branding{
+		text-align: center;
+		display:inline-block;
+		width:100%;
+		padding-bottom: 10px;
+	}
+
+	header nav, header li{
+		float:none;
+		width:80%;
+		text-align: center;
+		padding-left: 30px;
+	}
+}
