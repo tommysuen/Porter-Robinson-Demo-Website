@@ -156,8 +156,9 @@ footer ul{
 
 	header nav, header li{
 		float:none;
-		width:80%;
+		width:100%;
 		text-align: center;
-		padding-left: 30px;
+		padding-right: 30px;
+		padding-left: 0;
 	}
 }
